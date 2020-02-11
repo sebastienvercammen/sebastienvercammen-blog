@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsbyjs.github.io/gatsby-starter-blog/',
+    title: 'Sébastien Vercammen - Freelance Back-End Web Developer',
+    author: 'Sébastien Vercammen',
+    description: '',
+    siteUrl: 'https://www.sebastienvercammen.be/',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
@@ -53,5 +53,6 @@ module.exports = {
         pathToConfigModule: 'src/utils/typography',
       },
     },
+	`gatsby-plugin-netlify-cms`
   ],
 }
